@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondoManager.App", "CondoManager.App\CondoManager.App.csproj", "{A06AF650-AB8F-4C74-8349-6BFBC8C566AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CondoManager.Api", "CondoManager.Api\CondoManager.Api.csproj", "{1CB3D796-D6FF-4483-91F2-D392380F3202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A06AF650-AB8F-4C74-8349-6BFBC8C566AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06AF650-AB8F-4C74-8349-6BFBC8C566AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06AF650-AB8F-4C74-8349-6BFBC8C566AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A06AF650-AB8F-4C74-8349-6BFBC8C566AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06AF650-AB8F-4C74-8349-6BFBC8C566AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A06AF650-AB8F-4C74-8349-6BFBC8C566AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1CB3D796-D6FF-4483-91F2-D392380F3202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB3D796-D6FF-4483-91F2-D392380F3202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB3D796-D6FF-4483-91F2-D392380F3202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB3D796-D6FF-4483-91F2-D392380F3202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F72C77D6-7489-498A-B55F-6B7F7C6F27E0}
+	EndGlobalSection
+EndGlobal
