@@ -9,6 +9,8 @@ namespace CondoManager.Api.Data.Models
         public required string Email { get; set; }
         public string? Telephone { get; set; }
         public bool KeepConnected { get; set; }
-        public DateTime LastAccess { get; set; }
+        public List<Company>? Companies { get; set; } = new();
+        public List<Condominium>? Condominiums { get; set; } = new();
+        public DateTime CreationDate { get; set; }
     }
 }
